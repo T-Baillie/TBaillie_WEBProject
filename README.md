@@ -44,7 +44,7 @@ websites to take inspo from
 ```
 awwwards.com because of white space use, and nav bar
 ```
-
+## Extra Stuff
 
 You can preview the production build with `npm run preview`.
 
