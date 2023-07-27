@@ -36,9 +36,10 @@ npm run build
 website README:
 website idea, photography website photo gallery + services and costs
 based on SK photography
-''' or 
+``` or 
 cyberpunk 2077 or similar 
 potentially a fan page to a game/movie
+```
 
 You can preview the production build with `npm run preview`.
 
