@@ -32,7 +32,7 @@ To create a production version of your app:
 ```bash
 npm run build
 ```
-
+## Websites ideas and help
 website README:
 website idea, photography website photo gallery + services and costs
 based on SK photography
