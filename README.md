@@ -40,6 +40,11 @@ based on SK photography
 cyberpunk 2077 or similar 
 potentially a fan page to a game/movie
 ```
+websites to take inspo from 
+```
+awwwards.com
+```
+
 
 You can preview the production build with `npm run preview`.
 
