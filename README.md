@@ -39,6 +39,7 @@ based on SK photography
 ``` or 
 cyberpunk 2077 or similar 
 potentially a fan page to a game/movie
+or maybe a page on dogs as the api should be easy to get 
 ```
 websites to take inspo from 
 ```
