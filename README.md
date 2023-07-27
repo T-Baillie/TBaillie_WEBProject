@@ -42,7 +42,7 @@ potentially a fan page to a game/movie
 ```
 websites to take inspo from 
 ```
-awwwards.com
+awwwards.com because of white space use, and nav bar
 ```
 
 
