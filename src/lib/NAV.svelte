@@ -15,6 +15,7 @@
         padding: 0 4rem;
         text-decoration: none;
         color: black;
+        font-family: 'Montserrat', sans-serif;
     }
     
 </style>
