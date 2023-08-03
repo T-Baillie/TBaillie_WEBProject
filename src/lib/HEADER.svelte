@@ -3,7 +3,5 @@
 </script>
 
 <header>
-    this is a header
+    <Nav/>    
 </header>
-
-<Nav/>
