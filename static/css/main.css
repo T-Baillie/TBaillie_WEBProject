@@ -13,8 +13,18 @@ body {
     margin: 0;
 }
 
+.myClass{
+    width:50%;
+    margin:30px;
+}
+  
+@media (min-height: 680px) and (orientation: portrait) {
+    .myClass{
+        width:100%;
+        margin:0;
+    }
 
-
+}
 footer {
     position: absolute;
     bottom: 0;
