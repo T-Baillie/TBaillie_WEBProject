@@ -13,18 +13,24 @@ body {
     margin: 0;
 }
 
-.myClass{
-    width:50%;
-    margin:30px;
+.heading {
+    padding-top: 50px;
 }
-  
-@media (min-height: 680px) and (orientation: portrait) {
-    .myClass{
-        width:100%;
-        margin:0;
-    }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
 }
+
+.front {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    text-align: center;
+    padding: 100px;
+}
+
 footer {
     position: absolute;
     bottom: 0;

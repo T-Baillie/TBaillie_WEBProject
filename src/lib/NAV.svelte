@@ -28,13 +28,10 @@
 </style>
 
 <nav>
-    <div id ="upper">
-        <a href="https://online.op.ac.nz/"> Adoption and Co</a>
-    </div>
     <div id = "navb">
         <a href = "https://online.op.ac.nz/"> Home </a>
-        <a href = "https://online.op.ac.nz/"> Dogs </a>
-        <a href = "https://online.op.ac.nz/"> Cats </a>
+        <a href = "https://online.op.ac.nz/"> Adopt </a>
         <a href = "https://online.op.ac.nz/"> Donate </a>
+        <a href = "https://online.op.ac.nz/"> Other </a>
     </div>
 </nav>
