@@ -10,7 +10,9 @@
         </p>
     </div>
     <div class ="row">
-            <img src ="/IMG/Apotion page.jpg" alt= "apotion-temp">
+            <img src ="IMG/Apotion page.jpg" alt= "apotion-temp">
+            <img src ="IMG/Apotion page.jpg" alt ="donate-temp">
+            <img src ="IMG/Donate page.jpg" alt ="other-temp">
     </div>
 
 

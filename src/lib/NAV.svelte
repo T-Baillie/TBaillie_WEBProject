@@ -1,4 +1,3 @@
-<link rel ="stylesheet" href ="css/nav.css">
 <nav>
     <div id = "navb">
         <a href = "https://online.op.ac.nz/"> Home </a>
