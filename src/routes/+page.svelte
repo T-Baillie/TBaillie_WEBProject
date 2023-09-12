@@ -9,10 +9,8 @@
             but we also have a store to find anything you may need in order keep them happy and feed!!! 
         </p>
     </div>
-    <div class ="pics">
-            <p>
-                woo
-            </p>
+    <div class ="row">
+            <img src ="/IMG/Apotion page.jpg" alt= "apotion-temp">
     </div>
 
 
