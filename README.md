@@ -38,12 +38,9 @@ based on SK photography
 site based on Adpotion/adopting pets.
 websites to take inspo from 
 ```
+```
 [awwwards.com](https://www.awwwards.com/) because of white space use, and nav bar.
 https://www.petfinder.com/ as its based on the same idea as my site.
 https://www.spca.nz/centre/dunedin-centre as its also based on same idea.
 ```
 ## Extra Stuff
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
