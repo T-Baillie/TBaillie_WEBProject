@@ -2,7 +2,7 @@
 
 nav {
     width :100%;
-    background-color: lightgray;
+    background-color: lightblue;
     padding: 4rem 4rem;
 }
 
@@ -17,6 +17,9 @@ nav #navb {
     flex-direction: row;
     justify-content: center;
 
+}
+nav a:hover {
+    color: blue;
 }
 
 nav a {
