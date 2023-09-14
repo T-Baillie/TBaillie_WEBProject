@@ -23,27 +23,24 @@ npm run dev
 
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
+npm run build
 ```
 
 ## Building
 
 To create a production version of your app:
 
-```bash
-npm run build
-```
 ## Websites ideas and help
 website README:
+```
 website idea, photography website photo gallery + services and costs
 based on SK photography
-``` or 
-cyberpunk 2077 or similar 
-potentially a fan page to a game/movie
-or maybe a page on dogs as the api should be easy to get 
-```
+site based on Adpotion/adopting pets.
 websites to take inspo from 
 ```
-awwwards.com because of white space use, and nav bar
+[awwwards.com](https://www.awwwards.com/) because of white space use, and nav bar.
+https://www.petfinder.com/ as its based on the same idea as my site.
+https://www.spca.nz/centre/dunedin-centre as its also based on same idea.
 ```
 ## Extra Stuff
 
