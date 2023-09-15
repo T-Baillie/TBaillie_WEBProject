@@ -6,12 +6,6 @@ nav {
     padding: 4rem 4rem;
 }
 
-nav #upper {
-    display: flex;
-    flex-direction: row;   
-    justify-content: center;
-}
-
 nav #navb {
     display: flex;
     flex-direction: row;
