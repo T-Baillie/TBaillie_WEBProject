@@ -1,4 +1,4 @@
-
+<div class ="home">
     <div class = "heading">   
         <h2>Adoption and Co</h2>
     </div>
@@ -14,7 +14,7 @@
             <img src ="IMG/Apotion page.jpg" alt ="donate-temp">
             <img src ="IMG/Donate page.jpg" alt ="other-temp">
     </div>
-
+</div>
 
 
 

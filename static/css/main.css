@@ -4,10 +4,11 @@
 }
 
 :root {
-    --background-main: #e5f7fd;
+    --background-main: #ebf8fe;
     --hover-color: blue;
     --text-main: black;
     --nav: lightblue;
+
 }
 .flex_parent{
     display: flex;
@@ -18,8 +19,11 @@
     background: hotpink; 
     border: 1px; 
     color: white; 
-}
+} 
 
+.home {
+    background-color: var(--background-main);
+}
 body {
     margin: 0;
 }
