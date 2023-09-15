@@ -3,6 +3,12 @@
     box-sizing: border-box;
 }
 
+:root {
+    --background-main: #e5f7fd;
+    --hover-color: blue;
+    --text-main: black;
+    --nav: lightblue;
+}
 .flex_parent{
     display: flex;
 

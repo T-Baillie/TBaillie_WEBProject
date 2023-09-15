@@ -2,7 +2,7 @@
 
 nav {
     width :100%;
-    background-color: lightblue;
+    background-color: var(--nav);
     padding: 4rem 4rem;
 }
 
@@ -19,7 +19,7 @@ nav #navb {
 
 }
 nav a:hover {
-    color: blue;
+    color: var(--hover-color);
 }
 
 nav a {
