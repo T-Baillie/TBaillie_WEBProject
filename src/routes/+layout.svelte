@@ -1,6 +1,6 @@
 <script>
-  import Footer from '$lib/FOOTER.svelte';
   import Header from '$lib/HEADER.svelte';
+  import Footer from '$lib/FOOTER.svelte';
 </script>
 
 <svelte:head>
@@ -9,5 +9,7 @@
 </svelte:head>
 
 <Header />
+
 <slot />
+
 <Footer />
