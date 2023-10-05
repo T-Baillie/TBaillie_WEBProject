@@ -20,11 +20,11 @@
 
     <div class = "front">
         <p> 
-            we value all manner of pets, Here we can you adpot a pet, 
+            we value all manner of pets, Here we can you adopt a pet, 
             but we also have a store to find anything you may need in order keep them happy and feed!!! 
         </p>
     </div>
-    
+
     <div class ='row'>
     {#each imgs as img}
         <img src= {img.urls.regular} alt="PetPics"/>
@@ -34,15 +34,15 @@
     <div class ="titles">
         <div>
             <h1> Adopton Page </h1>
-                go here, for the adopt page
+                <a>go here, for the adopt page</a>
         </div>
         <div>    
             <h1> Donate Page </h1>
-                go here, for the Donate page
+                <a>go here, for the Donate page</a>
         </div>
         <div>
             <h1> Other Page </h1>
-                go here, for the other pages
+                <a>go here, for the other pages</a>
         </div>
     </div>
 </div>
