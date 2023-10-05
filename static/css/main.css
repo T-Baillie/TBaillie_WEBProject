@@ -59,6 +59,14 @@ h2 {
     max-height: 700px;
 }
 
+/* .row:nth-of-type() {
+
+} */
+.titles {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
 
 footer {
     width :100%;

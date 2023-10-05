@@ -1,3 +1,18 @@
+<script>
+    import { onMount } from 'svelte';
+
+    let imgs = [];
+    const BASE_URL = "https://api.unsplash.com";
+    onMount(() => {
+        fetch(`${BASE_URL}/search/photos?query=cats&per_page=3&color=blue&orientation=portrait&client_id=7EFeIv8qjanpMATe8ge5S-Bt6PBIeyUYwzcblESBly4`)
+        .then(res => res.json())
+        .then(data => {
+            imgs = data.results;
+        });
+    });
+</script>
+
+
 <div class ="home">
     <div class = "heading">   
         <h2>Adoption and Co</h2>
@@ -12,7 +27,28 @@
     <div class ="row">
             <img src ="IMG/Apotion page.jpg" alt= "apotion-temp">
             <img src ="IMG/Donate page.jpg" alt ="donate-temp">
-            <img src ="static/IMG/Other.jpg" alt ="other-temp">
+            <img src ="IMG/Other.jpg" alt ="other-temp">
+    </div>
+
+    <div class ='row'>
+    {#each imgs as img}
+        <img src= {img.urls.regular} alt="PetPics"/>
+        {/each}
+    </div>
+
+    <div class ="titles">
+        <div>
+            <h1> Adopton Page </h1>
+                go here, for the adopt page
+        </div>
+        <div>    
+            <h1> Donate Page </h1>
+                go here, for the Donate page
+        </div>
+        <div>
+            <h1> Other Page </h1>
+                go here, for the other pages
+        </div>
     </div>
 </div>
 
