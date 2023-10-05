@@ -24,12 +24,7 @@
             but we also have a store to find anything you may need in order keep them happy and feed!!! 
         </p>
     </div>
-    <div class ="row">
-            <img src ="IMG/Apotion page.jpg" alt= "apotion-temp">
-            <img src ="IMG/Donate page.jpg" alt ="donate-temp">
-            <img src ="IMG/Other.jpg" alt ="other-temp">
-    </div>
-
+    
     <div class ='row'>
     {#each imgs as img}
         <img src= {img.urls.regular} alt="PetPics"/>
