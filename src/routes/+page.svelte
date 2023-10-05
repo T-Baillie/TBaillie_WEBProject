@@ -12,7 +12,6 @@
     });
 </script>
 
-
 <div class ="home">
     <div class = "heading">   
         <h2>Adoption and Co</h2>
