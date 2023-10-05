@@ -2,6 +2,7 @@
  website is an adpotion site, used to find and adpot pets in your area.
  website will include 
  ## Roadmap 
+ - [x] main page, using api to load a few images
  - [ ] home page, with links to all other pages
  - [ ] adpotion page, with a gallery of animals, with names underneath
     - [ ] api used for images, using queries
