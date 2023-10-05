@@ -25,8 +25,8 @@
     </div>
 
     <div class ='row'>
-    {#each imgs as img}
-        <img src= {img.urls.regular} alt="PetPics"/>
+        {#each imgs as img}
+            <img src= {img.urls.regular} alt="PetPics"/>
         {/each}
     </div>
 
