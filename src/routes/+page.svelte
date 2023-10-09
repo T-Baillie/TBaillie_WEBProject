@@ -33,15 +33,15 @@
     <div class ="titles">
         <div>
             <h1> Adopton Page </h1>
-                <a>go here, for the adopt page</a>
+                <a href="">go here, for the adopt page</a>
         </div>
         <div>    
             <h1> Donate Page </h1>
-                <a>go here, for the Donate page</a>
+                <a href="">go here, for the Donate page</a>
         </div>
         <div>
             <h1> Other Page </h1>
-                <a>go here, for the other pages</a>
+                <a href="">go here, for the other pages</a>
         </div>
     </div>
 </div>
