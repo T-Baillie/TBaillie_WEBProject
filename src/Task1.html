@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <script>
-/* import { onMount } from "svelte";
+import { onMount } from "svelte";
 
-let avengers = [];
-onMount(async () => {
-  const res = await fetch(
-    "https://gist.githubusercontent.com/dfenders/0fe9021b4242d83d973ac7087287e166/raw/8c0bda392b0381cfd254b719360e177fdf98b1ab/firstNames.json"
-  );
-  const names = await res.json();
-  console.log(names); 
-}); */
+let BASEURL = "https://gist.githubusercontent.com/dfenders/0fe9021b4242d83d973ac7087287e166/raw/8c0bda392b0381cfd254b719360e177fdf98b1ab"
+  import { onMount } from "svelte";
+  let avengers = [];
+  onMount(async () => {
+    const res = await fetch(
+      `${BASEURL}/firstNames.json`
+    );
+    
+    let firstNames = await res.json();
+    console.log(firstNames);
+    const resp = await fetch(
+      `${BASEURL}/lastNames.json`
+      );
+    let lastNames = await resp.json();
+    console.log(lastNames);
+    
+    let tempAvengers = [];
+    for (let i = 0; i < firstNames.length; i++) {
+      let temp = `${firstNames[i].name} ${lastNames.names[i].name}`;
+      console.log(firstNames[i].name);
+      console.log(lastNames.names[i].name);
+      tempAvengers.push(temp);
+    }
+    console.log(tempAvengers);
+    avengers = tempAvengers;
+    });
+
 </script>
+
     <body>
         <style>
             
