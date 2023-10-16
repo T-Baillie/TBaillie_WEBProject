@@ -23,6 +23,7 @@
 
 .home {
     background-color: var(--background-main);
+    min-height: 85vh;
 }
 body {
     margin: 0;
