@@ -1,6 +1,8 @@
 ## Website README 
  website is an adpotion site, used to find and adpot pets in your area.
  website will include 
+## Table of Contents
+
  ## Roadmap 
  - [x] main page, using api to load a few images
  - [ ] home page, with links to all other pages
@@ -9,6 +11,8 @@
  - [ ] donation page, used to help support the animals
  - [ ] an other page, most likely with links to other sites of interest
  - [ ] button to display a random animal fact
+ - [ ] change api to async and not use .thens
+ - [ ] 
 ## Links for inspiration 
 ### Awwwards.com
 [awwwards.com](https://www.awwwards.com/) because of white space use, and nav bar.
