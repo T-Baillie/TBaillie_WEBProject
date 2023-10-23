@@ -1,8 +1,8 @@
 <nav>
     <div id = "navb">
-        <a href = "https://online.op.ac.nz/"> Home </a>
-        <a href = "https://online.op.ac.nz/"> Adopt </a>
-        <a href = "https://online.op.ac.nz/"> Donate </a>
-        <a href = "https://online.op.ac.nz/"> Other </a>
+        <a href = "/page.svelte" target="_blank"> Home </a>
+        <a href = "/AdoptPage" target="_blank"> Adopt </a>
+        <a href = "/DonatePage" target="_blank"> Donate </a>
+        <a href = "/OtherPage" target="_blank"> Other </a>
     </div>
 </nav>
