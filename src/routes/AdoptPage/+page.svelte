@@ -20,6 +20,6 @@
 <div class="button">
     <button class="fact_button" onclick={factprint}> Press for cat fact </button>
 </div>
-<div class = "factdisplay">
+<div class = "fact_display">
     {fact}
 </div>

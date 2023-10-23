@@ -9,3 +9,9 @@
     padding: 7.5px;
     font-size: 1.5em;
 }
+
+.fact_display {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
