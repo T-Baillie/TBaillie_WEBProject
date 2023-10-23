@@ -3,24 +3,16 @@
 
   let imgs = [];
   const BASE_URL = "https://api.unsplash.com";
-  
+
   onMount(async () => {
-    fetch(`${BASE_URL}/search/photos?query=cats&per_page=3&color=blue&orientation=portrait&client_id=7EFeIv8qjanpMATe8ge5S-Bt6PBIeyUYwzcblESBly4`)
-      .then((res) => res.json())
-      .then((data) => {
-        imgs = data.results;
-      });
-  });
-  
-  /*
-   onMount(async () => {
-    const res = await fetch(`
-    ${BASEURL}/search/photos?query=cats&per_page=3&color=blue&orientation=portrait&client_id=7EFeIv8qjanpMATe8ge5S-Bt6PBIeyUYwzcblESBly4`
-    )
-    imgs = await res.json();
+    const res = await fetch
+    (`
+    ${BASE_URL}/search/photos?query=pets&per_page=3&color=blue&orientation=portrait&client_id=7EFeIv8qjanpMATe8ge5S-Bt6PBIeyUYwzcblESBly4
+    `);
+    let data = await res.json();
+    imgs = data.results;
     console.log(imgs);
-   });
-   */
+  });
 </script>
 
 <div class="home">
