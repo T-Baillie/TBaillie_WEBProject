@@ -6,13 +6,15 @@
  ## Roadmap 
  - [x] main page, using api to load a few images
  - [ ] home page, with links to all other pages
+    - [ ] make responsive imgs with their links 
  - [ ] adpotion page, with a gallery of animals, with names underneath
-    - [ ] api used for images, using queries
+    - [x] api used for images, using queries
+    - [ ] info displayed for each animal
  - [ ] donation page, used to help support the animals
  - [ ] an other page, most likely with links to other sites of interest
  - [ ] button to display a random animal fact
- - [ ] change api to async and not use .thens
- - [ ] 
+ - [x] change api to async and not use .thens
+ - [ ] responive header and footer
 ## Links for inspiration 
 ### Awwwards.com
 [awwwards.com](https://www.awwwards.com/) because of white space use, and nav bar.
