@@ -1,26 +1,20 @@
 <script>
-  const BASEURLFacts = "https://meowfacts.herokuapp.com";
-  let count = 1;
-  let fact = [];
+  let imgs = [];
+  const BASE_URL = "https://api.unsplash.com";
   import { onMount } from "svelte";
 
-  function factprint() {
-    count += 1;
-    console.log(count);
-    onMount(async () => {
-      const res = await fetch(`${BASEURLFacts}/?count${count}`);
-      let data = await res.json();
-      fact = data.data;
-      console.log(fact);
-    });
-  }
+  onMount(async () => {
+    const res = await fetch(`
+    ${BASE_URL}/search/photos?query=pets&per_page=12&color=blue&orientation=portrait&client_id=7EFeIv8qjanpMATe8ge5S-Bt6PBIeyUYwzcblESBly4
+    `);
+    let data = await res.json();
+    imgs = data.results;
+    console.log(imgs);
+  });
 </script>
 
-<div class="button">
-  <button class="fact_button" onclick={() => factprint()}>
-    Press for cat fact
-  </button>
-</div>
-<div class="fact_display">
-  {fact}
+<div class="gallery">
+  {#each imgs as img}
+    <img src={img.urls.regular} alt="PetPics" />
+  {/each}
 </div>
