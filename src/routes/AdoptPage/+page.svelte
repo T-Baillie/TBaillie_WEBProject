@@ -26,3 +26,4 @@
     <img src={img.urls.regular} alt="PetPics" />
   {/each}
 </div>
+
