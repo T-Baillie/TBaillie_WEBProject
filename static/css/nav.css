@@ -6,10 +6,11 @@ nav {
     padding: 4rem 4rem;
 }
 
-nav #navb {
+.navb {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 nav a:hover {
@@ -17,14 +18,10 @@ nav a:hover {
 }
 
 nav a {
-    padding: 0 9rem;
-    font-size: 1.75rem;
+    padding: 30px;
+    font-size: 34px;
     text-decoration: none;
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
-@media screen and (max-width: 500px) {
-    
-
-  }

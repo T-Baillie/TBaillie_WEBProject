@@ -11,13 +11,6 @@
     let data = await res.json();
     imgs = data.results;
     console.log(imgs);
-    // const resp = await fetch (`
-    // ${BASE_URL}query=house&per_page1&orientation=landscape&client_id=7EFeIv8qjanpMATe8ge5S-Bt6PBIeyUYwzcblESBly4
-    // `)
-    // let data2 = await resp.json();
-    // headPic =data2.results;
-    // console.log(headPic);
-
   });
 </script>
 

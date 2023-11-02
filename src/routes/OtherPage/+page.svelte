@@ -8,7 +8,6 @@
     const res = await fetch(`${BASEURLFacts}/?count=${count}`);
     const data = await res.json();
     fact = data.data;
-    console.log(fact);
   };
 
 </script>
@@ -18,8 +17,8 @@
 </div>
 <div class = "fact_display">
   {#each fact as facts}
-    <p>
+    
       {facts}
-    </p>
+    
   {/each}
 </div>

@@ -1,5 +1,5 @@
 <nav>
-    <div id = "navb">
+    <div class = "navb">
         <a href = "/page.svelte" target="_blank"> Home </a>
         <a href = "/AdoptPage" target="_blank"> Adopt </a>
         <a href = "/DonatePage" target="_blank"> Donate </a>
