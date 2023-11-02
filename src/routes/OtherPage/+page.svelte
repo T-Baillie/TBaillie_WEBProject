@@ -16,7 +16,7 @@
 <div class="button">
   <button class="fact_button" on:click={api}> Press for cat fact </button>
 </div>
-<div>
+<div class = "fact_display">
   {#each fact as facts}
     <p>
       {facts}
