@@ -34,7 +34,7 @@
 
   <div class="titles">
     <div>
-      <h1>Adopton Page</h1>
+      <h1>Adoption Page</h1>
       <a href="/AdoptPage" target="_blank">go here, for the adopt page</a>
     </div>
     <div>

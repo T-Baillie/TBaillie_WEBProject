@@ -70,14 +70,13 @@ h2 {
 .titles {
     display: flex;
     justify-content: space-around;
-
     gap: 100px;
     padding-bottom: 50px;
 
 }
 .titles a {
     display: flex;
-    
+    text-decoration: none;
 }
 
 footer {
