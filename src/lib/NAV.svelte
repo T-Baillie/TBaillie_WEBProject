@@ -1,8 +1,22 @@
 <nav>
-    <div class = "navb">
-        <a href = "/page.svelte" target="_blank"> Home </a>
-        <a href = "/AdoptPage" target="_blank"> Adopt </a>
-        <a href = "/DonatePage" target="_blank"> Donate </a>
-        <a href = "/OtherPage" target="_blank"> Other </a>
-    </div>
+  <div class="navb">
+    <a href="/" class="logo">logo</a>
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="/" class="nav-links">Home</a>
+        </li>
+        <li>
+            <a href="/" class="nav-links">Products</a>
+        </li>
+        <li>
+            <a href="/" class="nav-links">About Us</a>
+        </li>
+        <li>
+            <a href="/" class="nav-links">Contact Us</a>
+        </li>
+        <li>
+            <a href="/" class="nav-links">Blog</a>
+        </li>
+    </ul>
+  </div>
 </nav>
