@@ -57,17 +57,3 @@ h2 {
   display: flex;
   text-decoration: none;
 }
-/* Footer CSS */
-footer {
-  width: 100%;
-  background-color: var(--nav);
-  padding: 4rem 4rem;
-}
-
-footer p {
-  padding: 0 9rem;
-  font-size: 1rem;
-  text-decoration: none;
-  color: var(--text-main);
-  font-family: "Montserrat", sans-serif;
-}
