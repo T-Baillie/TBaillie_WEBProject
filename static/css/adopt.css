@@ -1,3 +1,4 @@
+/* CSS for Gallery and Adopt Page */
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

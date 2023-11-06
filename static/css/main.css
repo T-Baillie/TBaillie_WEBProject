@@ -2,25 +2,14 @@
 * {
   box-sizing: border-box;
 }
-.factbutton {
-  color: aquamarine;
-}
+/* Colors i used multiple times */
 :root {
   --background-main: #ebf8fe;
   --hover-color: blue;
   --text-main: black;
   --nav: lightblue;
 }
-.flex_parent {
-  display: flex;
-}
-
-.child {
-  background: hotpink;
-  border: 1px;
-  color: white;
-}
-
+/* Main Page CSS */
 .home {
   background-color: var(--background-main);
   min-height: 85vh;
@@ -68,7 +57,7 @@ h2 {
   display: flex;
   text-decoration: none;
 }
-
+/* Footer CSS */
 footer {
   width: 100%;
   background-color: var(--nav);

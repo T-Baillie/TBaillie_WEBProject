@@ -3,19 +3,16 @@
     <a href="/" class="logo">Adoption and Co</a>
     <ul class="main-nav" id="js-menu">
         <li>
-            <a href="/" class="nav-links">Home</a>
+            <a href="/" target="_blank" class="nav-links">Home</a>
         </li>
         <li>
-            <a href="/" class="nav-links">Products</a>
+            <a href="/AdoptPage" target="_blank" class="nav-links">Adopt</a>
         </li>
         <li>
-            <a href="/" class="nav-links">About Us</a>
+            <a href="/DonatePage" target="_blank" class="nav-links">Donate</a>
         </li>
         <li>
-            <a href="/" class="nav-links">Contact Us</a>
-        </li>
-        <li>
-            <a href="/" class="nav-links">Blog</a>
+            <a href="/OtherPage" target="_blank" class="nav-links">Other</a>
         </li>
     </ul>
   </div>
