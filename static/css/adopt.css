@@ -1,16 +1,14 @@
-
 .gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: var(--background-main);
-    padding: 15px;
-    gap: 15px;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: var(--background-main);
+  padding: 15px;
+  gap: 15px;
 }
 
 .gallery img {
-    border: 3.5px solid black;
-    border-radius: 10px;
-    width:100%;
-    height: 575px;
+  border: 3.5px solid black;
+  border-radius: 10px;
+  width: 100%;
+  height: 575px;
 }
