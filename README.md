@@ -5,14 +5,14 @@
 
  ## Roadmap 
  - [x] main page, using api to load a few images
- - [ ] home page, with links to all other pages
+ - [x] home page, with links to all other pages
     - [ ] make responsive imgs with their links 
- - [ ] adpotion page, with a gallery of animals, with names underneath
+ - [x] adpotion page, with a gallery of animals, with names underneath
     - [x] api used for images, using queries
     - [ ] info displayed for each animal
  - [ ] donation page, used to help support the animals
  - [ ] an other page, most likely with links to other sites of interest
- - [ ] button to display a random animal fact
+ - [x] button to display a random animal fact
  - [x] change api to async and not use .thens
  - [ ] responive header and footer
 ## Links for inspiration 
