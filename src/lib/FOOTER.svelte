@@ -1,9 +1,6 @@
-<footer class="footer">
-  <div class="foot-title">
-    <h1>Adoption and Co</h1>
-    <ul class="foot-content">Home</ul>
-    <ul class="foot-content">adopt</ul>
-    <ul class="foot-content">Donate</ul>
-    <ul class="foot-content">Other</ul>
+<footer>
+  <div class="foot">
+    <div class="foot-center">
+        <p class="footList">Copyright © 2004 - 2023, Adoption and Co, since 2004</p>
   </div>
-</footer>
+</footer> 
