@@ -35,6 +35,7 @@ body {
   margin-top: 10px;
   margin-left: 20px;
 }
+/* responsiveness */
 @media (orientation: portrait) {
   .logo {
     display: flex;

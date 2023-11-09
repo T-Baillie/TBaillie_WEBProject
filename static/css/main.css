@@ -14,9 +14,11 @@
   background-color: var(--background-main);
   min-height: 85vh;
 }
+/* styles whole page */
 body {
   margin: 0;
 }
+/* styles heading */
 .heading {
   padding-top: 50px;
 }
@@ -25,6 +27,7 @@ h2 {
   justify-content: center;
   font-size: 46px;
 }
+/* small desc under heading */
 .desc {
   display: flex;
   justify-content: center;
@@ -32,6 +35,7 @@ h2 {
   text-align: center;
   padding: 100px;
 }
+/* styling for pics */
 .row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -42,6 +46,7 @@ h2 {
   width: 100%;
   max-height: 625px;
 }
+/* styles titles underneath pics */
 .titles {
   display: flex;
   justify-content: space-around;
@@ -52,6 +57,7 @@ h2 {
   display: flex;
   text-decoration: none;
 }
+/* responsiveness */
 @media (max-width:1000px) {
   .h2 {
     font-size: 40px;
