@@ -1,7 +1,7 @@
 <nav>
   <div class="navbar">
     <a href="/" class="logo">Adoption and Co</a>
-    <ul class="main-nav" id="js-menu">
+    <ul class="main-nav">
         <li>
             <a href="/" target="_blank" class="nav-links">Home</a>
         </li>

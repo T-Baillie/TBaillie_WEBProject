@@ -5,13 +5,11 @@
   padding: 30px;
   background-color: var(--background-main);
 }
-
 .fact_button {
   color: black;
   padding: 7.5px;
   font-size: 1.5em;
 }
-
 .fact_display {
   display: flex;
   justify-content: center;

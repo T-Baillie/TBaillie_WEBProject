@@ -1,4 +1,5 @@
 /* CSS for Gallery and Adopt Page */
+/* styles majority of page */
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6,16 +7,18 @@
   padding: 15px;
   gap: 15px;
 }
-
+/* styles the images in the gallery  */
 .gallery img {
   border: 3.5px solid black;
   border-radius: 10px;
   width: 100%;
   height: 575px;
 }
+/* hover effect of pics */
 .gallery img:hover {
   border: 12.5px solid black;
 }
+/* responsiveness */
 @media (orientation: portrait){
   .gallery {
     grid-template-columns: 1fr;

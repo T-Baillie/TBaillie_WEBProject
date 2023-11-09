@@ -19,7 +19,7 @@
     <h2>Adoption and Co</h2>
   </div>
 
-  <div class="front">
+  <div class="desc">
     <p>
       we value all manner of pets, Here we can you adopt a pet, but we also have
       a store to find anything you may need in order keep them happy and feed!!!
