@@ -35,3 +35,9 @@ body {
   margin-top: 10px;
   margin-left: 20px;
 }
+@media (orientation: portrait) {
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+}
