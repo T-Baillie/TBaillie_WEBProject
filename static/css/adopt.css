@@ -13,3 +13,13 @@
   width: 100%;
   height: 575px;
 }
+.gallery img:hover {
+  border: 12.5px solid black;
+}
+@media (orientation: portrait){
+  .gallery {
+    grid-template-columns: 1fr;
+    padding: 25px;
+  }
+}
+
