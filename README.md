@@ -17,8 +17,11 @@
  - [x] responsive header and footer (mostly)
 
 ## how to use
-
+   after cloning the code to your desktop, run the following codes --
 `` npm i ``
+`` npm run dev -- --open ``
+once these both run in the terminal, it will load up the website in the browser and from there, you can use the nav bar to go to every page
+
  ## Bugs and 'unintentional' features
   - donate page wasn't completed  
   - main page responsiveness isn't done
