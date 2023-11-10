@@ -16,7 +16,9 @@
  - [x] change api to async and not use .thens
  - [x] responsive header and footer (mostly)
 
+## how to use
 
+`` npm i ``
  ## Bugs and 'unintentional' features
   - donate page wasn't completed  
   - main page responsiveness isn't done
