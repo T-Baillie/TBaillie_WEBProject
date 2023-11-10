@@ -2,7 +2,7 @@
 the site below helped me to design and plan out my website
 
 # spca
-the spca website helped me to plan out my site for a few reasons, mainly because the site has the same purpose as my site, so i know it does the same job, and i wanted to follow that formula, also the color scheme is light and gentle without being to boring or over the top, the use of white space is nice as well as it isn't overpowering or too little.
+the spca website helped me to plan out my site for a few reasons, mainly because the site has the same purpose as my site, so i know it does the same job, and i wanted to follow that formula, also the color scheme is light and gentle without being to boring or over the top, the use of white space is nice as well as it isn't overpowering or too little. the calm colors were the main thing i wanted to take from this site but i did like the header/nav bar, as its basic yet has everything you need, sadly i didnt fully get round to getting it done 100%, tho i was able to take some inspiration from it none the less.
 https://www.spca.nz/centre/dunedin-centre 
 
 # petfinder 
