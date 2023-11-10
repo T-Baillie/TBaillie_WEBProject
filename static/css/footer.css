@@ -1,21 +1,16 @@
 /* Footer CSS */
-.foot {
+.footer {
   display: flex;
-  padding: 4vh 5vw;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.foot-top {
+  padding: 10px;
+  border-bottom: 5px solid black;
 } 
-.foot li {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+.foot-bottom {
+  padding: 10px;
 }
-.foot-center {
-  flex: 1;
-  width: 100%;
-}
-
 
  
