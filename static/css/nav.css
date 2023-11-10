@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
 }
+/* does whole nav bar */
 body {
   font-family: "Josefin Sans", sans-serif;
   background-color: var(--nav);
@@ -12,6 +13,7 @@ body {
   font-size: 24px;
   padding-bottom: 10px;
 }
+/* puts links where they are wanted */
 .main-nav {
   display: flex;
   justify-content: space-around;
@@ -25,9 +27,11 @@ body {
   text-align: center;
   padding: 15px;
 }
+/* hover effects */
 .nav-links:hover {
   color: blue;
 }
+/* where my title is */
 .logo {
   display: inline-block;
   padding: 10px;

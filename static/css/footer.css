@@ -1,14 +1,16 @@
-/* Footer CSS */
+/* Footer CSS / footer is used for entire footer*/
 .footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
+/* does top half, plus the border */
 .foot-top {
   padding: 10px;
   border-bottom: 5px solid black;
 } 
+/* does bottom half */
 .foot-bottom {
   padding: 10px;
 }
